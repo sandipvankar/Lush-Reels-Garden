@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3986B31F2C8211C00096104F /* Lush_Reels_GardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B31E2C8211C00096104F /* Lush_Reels_GardenApp.swift */; };
+		3986B3212C8211C00096104F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B3202C8211C00096104F /* ContentView.swift */; };
+		3986B3232C8211C10096104F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3986B3222C8211C10096104F /* Assets.xcassets */; };
+		3986B3262C8211C10096104F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3986B3252C8211C10096104F /* Preview Assets.xcassets */; };
+		3986B3302C8211C20096104F /* Lush_Reels_GardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B32F2C8211C20096104F /* Lush_Reels_GardenTests.swift */; };
+		3986B33A2C8211C20096104F /* Lush_Reels_GardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B3392C8211C20096104F /* Lush_Reels_GardenUITests.swift */; };
+		3986B33C2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B33B2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3986B32C2C8211C20096104F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3986B3132C8211BF0096104F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3986B31A2C8211C00096104F;
+			remoteInfo = "Lush Reels Garden";
+		};
+		3986B3362C8211C20096104F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3986B3132C8211BF0096104F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3986B31A2C8211C00096104F;
+			remoteInfo = "Lush Reels Garden";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3986B31B2C8211C00096104F /* Lush Reels Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lush Reels Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3986B31E2C8211C00096104F /* Lush_Reels_GardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lush_Reels_GardenApp.swift; sourceTree = "<group>"; };
+		3986B3202C8211C00096104F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3986B3222C8211C10096104F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3986B3252C8211C10096104F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3986B32B2C8211C20096104F /* Lush Reels GardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lush Reels GardenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3986B32F2C8211C20096104F /* Lush_Reels_GardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lush_Reels_GardenTests.swift; sourceTree = "<group>"; };
+		3986B3352C8211C20096104F /* Lush Reels GardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lush Reels GardenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3986B3392C8211C20096104F /* Lush_Reels_GardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lush_Reels_GardenUITests.swift; sourceTree = "<group>"; };
+		3986B33B2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lush_Reels_GardenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3986B3182C8211C00096104F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3986B3282C8211C20096104F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3986B3322C8211C20096104F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3986B3122C8211BF0096104F = {
+			isa = PBXGroup;
+			children = (
+				3986B31D2C8211C00096104F /* Lush Reels Garden */,
+				3986B32E2C8211C20096104F /* Lush Reels GardenTests */,
+				3986B3382C8211C20096104F /* Lush Reels GardenUITests */,
+				3986B31C2C8211C00096104F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3986B31C2C8211C00096104F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3986B31B2C8211C00096104F /* Lush Reels Garden.app */,
+				3986B32B2C8211C20096104F /* Lush Reels GardenTests.xctest */,
+				3986B3352C8211C20096104F /* Lush Reels GardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3986B31D2C8211C00096104F /* Lush Reels Garden */ = {
+			isa = PBXGroup;
+			children = (
+				3986B31E2C8211C00096104F /* Lush_Reels_GardenApp.swift */,
+				3986B3202C8211C00096104F /* ContentView.swift */,
+				3986B3222C8211C10096104F /* Assets.xcassets */,
+				3986B3242C8211C10096104F /* Preview Content */,
+			);
+			path = "Lush Reels Garden";
+			sourceTree = "<group>";
+		};
+		3986B3242C8211C10096104F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3986B3252C8211C10096104F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3986B32E2C8211C20096104F /* Lush Reels GardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				3986B32F2C8211C20096104F /* Lush_Reels_GardenTests.swift */,
+			);
+			path = "Lush Reels GardenTests";
+			sourceTree = "<group>";
+		};
+		3986B3382C8211C20096104F /* Lush Reels GardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3986B3392C8211C20096104F /* Lush_Reels_GardenUITests.swift */,
+				3986B33B2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift */,
+			);
+			path = "Lush Reels GardenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3986B31A2C8211C00096104F /* Lush Reels Garden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3986B33F2C8211C20096104F /* Build configuration list for PBXNativeTarget "Lush Reels Garden" */;
+			buildPhases = (
+				3986B3172C8211C00096104F /* Sources */,
+				3986B3182C8211C00096104F /* Frameworks */,
+				3986B3192C8211C00096104F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lush Reels Garden";
+			productName = "Lush Reels Garden";
+			productReference = 3986B31B2C8211C00096104F /* Lush Reels Garden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3986B32A2C8211C20096104F /* Lush Reels GardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3986B3422C8211C20096104F /* Build configuration list for PBXNativeTarget "Lush Reels GardenTests" */;
+			buildPhases = (
+				3986B3272C8211C20096104F /* Sources */,
+				3986B3282C8211C20096104F /* Frameworks */,
+				3986B3292C8211C20096104F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3986B32D2C8211C20096104F /* PBXTargetDependency */,
+			);
+			name = "Lush Reels GardenTests";
+			productName = "Lush Reels GardenTests";
+			productReference = 3986B32B2C8211C20096104F /* Lush Reels GardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3986B3342C8211C20096104F /* Lush Reels GardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3986B3452C8211C20096104F /* Build configuration list for PBXNativeTarget "Lush Reels GardenUITests" */;
+			buildPhases = (
+				3986B3312C8211C20096104F /* Sources */,
+				3986B3322C8211C20096104F /* Frameworks */,
+				3986B3332C8211C20096104F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3986B3372C8211C20096104F /* PBXTargetDependency */,
+			);
+			name = "Lush Reels GardenUITests";
+			productName = "Lush Reels GardenUITests";
+			productReference = 3986B3352C8211C20096104F /* Lush Reels GardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3986B3132C8211BF0096104F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3986B31A2C8211C00096104F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3986B32A2C8211C20096104F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3986B31A2C8211C00096104F;
+					};
+					3986B3342C8211C20096104F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3986B31A2C8211C00096104F;
+					};
+				};
+			};
+			buildConfigurationList = 3986B3162C8211BF0096104F /* Build configuration list for PBXProject "Lush Reels Garden" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3986B3122C8211BF0096104F;
+			productRefGroup = 3986B31C2C8211C00096104F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3986B31A2C8211C00096104F /* Lush Reels Garden */,
+				3986B32A2C8211C20096104F /* Lush Reels GardenTests */,
+				3986B3342C8211C20096104F /* Lush Reels GardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3986B3192C8211C00096104F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3986B3262C8211C10096104F /* Preview Assets.xcassets in Resources */,
+				3986B3232C8211C10096104F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3986B3292C8211C20096104F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3986B3332C8211C20096104F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3986B3172C8211C00096104F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3986B3212C8211C00096104F /* ContentView.swift in Sources */,
+				3986B31F2C8211C00096104F /* Lush_Reels_GardenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3986B3272C8211C20096104F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3986B3302C8211C20096104F /* Lush_Reels_GardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3986B3312C8211C20096104F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3986B33A2C8211C20096104F /* Lush_Reels_GardenUITests.swift in Sources */,
+				3986B33C2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3986B32D2C8211C20096104F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3986B31A2C8211C00096104F /* Lush Reels Garden */;
+			targetProxy = 3986B32C2C8211C20096104F /* PBXContainerItemProxy */;
+		};
+		3986B3372C8211C20096104F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3986B31A2C8211C00096104F /* Lush Reels Garden */;
+			targetProxy = 3986B3362C8211C20096104F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3986B33D2C8211C20096104F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3986B33E2C8211C20096104F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3986B3402C8211C20096104F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lush Reels Garden/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Lush-Reels-Garden.Lush-Reels-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3986B3412C8211C20096104F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lush Reels Garden/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Lush-Reels-Garden.Lush-Reels-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3986B3432C8211C20096104F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Lush-Reels-Garden.Lush-Reels-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lush Reels Garden.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lush Reels Garden";
+			};
+			name = Debug;
+		};
+		3986B3442C8211C20096104F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Lush-Reels-Garden.Lush-Reels-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lush Reels Garden.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lush Reels Garden";
+			};
+			name = Release;
+		};
+		3986B3462C8211C20096104F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Lush-Reels-Garden.Lush-Reels-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lush Reels Garden";
+			};
+			name = Debug;
+		};
+		3986B3472C8211C20096104F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Lush-Reels-Garden.Lush-Reels-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lush Reels Garden";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3986B3162C8211BF0096104F /* Build configuration list for PBXProject "Lush Reels Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3986B33D2C8211C20096104F /* Debug */,
+				3986B33E2C8211C20096104F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3986B33F2C8211C20096104F /* Build configuration list for PBXNativeTarget "Lush Reels Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3986B3402C8211C20096104F /* Debug */,
+				3986B3412C8211C20096104F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3986B3422C8211C20096104F /* Build configuration list for PBXNativeTarget "Lush Reels GardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3986B3432C8211C20096104F /* Debug */,
+				3986B3442C8211C20096104F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3986B3452C8211C20096104F /* Build configuration list for PBXNativeTarget "Lush Reels GardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3986B3462C8211C20096104F /* Debug */,
+				3986B3472C8211C20096104F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3986B3132C8211BF0096104F /* Project object */;
+}
