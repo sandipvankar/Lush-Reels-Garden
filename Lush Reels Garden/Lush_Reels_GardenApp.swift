@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
-
+@available(iOS 15.0, *)
 @main
 struct Lush_Reels_GardenApp: App {
+  
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }

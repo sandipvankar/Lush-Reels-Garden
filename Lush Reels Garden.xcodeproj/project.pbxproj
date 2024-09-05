@@ -14,6 +14,7 @@
 		3986B3302C8211C20096104F /* Lush_Reels_GardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B32F2C8211C20096104F /* Lush_Reels_GardenTests.swift */; };
 		3986B33A2C8211C20096104F /* Lush_Reels_GardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B3392C8211C20096104F /* Lush_Reels_GardenUITests.swift */; };
 		3986B33C2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B33B2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift */; };
+		3986B3492C8213CB0096104F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986B3482C8213CB0096104F /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3986B3352C8211C20096104F /* Lush Reels GardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lush Reels GardenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3986B3392C8211C20096104F /* Lush_Reels_GardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lush_Reels_GardenUITests.swift; sourceTree = "<group>"; };
 		3986B33B2C8211C20096104F /* Lush_Reels_GardenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lush_Reels_GardenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3986B3482C8213CB0096104F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3986B31E2C8211C00096104F /* Lush_Reels_GardenApp.swift */,
+				3986B3482C8213CB0096104F /* SplashView.swift */,
 				3986B3202C8211C00096104F /* ContentView.swift */,
 				3986B3222C8211C10096104F /* Assets.xcassets */,
 				3986B3242C8211C10096104F /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				3986B3212C8211C00096104F /* ContentView.swift in Sources */,
 				3986B31F2C8211C00096104F /* Lush_Reels_GardenApp.swift in Sources */,
+				3986B3492C8213CB0096104F /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
